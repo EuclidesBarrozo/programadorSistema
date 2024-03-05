@@ -36,6 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnLimpar = new System.Windows.Forms.Button();
+            this.rbtriangulo = new System.Windows.Forms.RadioButton();
+            this.rbtrapézio = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // tbxBase
@@ -106,11 +108,35 @@
             this.btnLimpar.UseVisualStyleBackColor = true;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
+            // rbtriangulo
+            // 
+            this.rbtriangulo.AutoSize = true;
+            this.rbtriangulo.Location = new System.Drawing.Point(580, 93);
+            this.rbtriangulo.Name = "rbtriangulo";
+            this.rbtriangulo.Size = new System.Drawing.Size(69, 17);
+            this.rbtriangulo.TabIndex = 8;
+            this.rbtriangulo.TabStop = true;
+            this.rbtriangulo.Text = "Triangulo";
+            this.rbtriangulo.UseVisualStyleBackColor = true;
+            // 
+            // rbtrapézio
+            // 
+            this.rbtrapézio.AutoSize = true;
+            this.rbtrapézio.Location = new System.Drawing.Point(580, 136);
+            this.rbtrapézio.Name = "rbtrapézio";
+            this.rbtrapézio.Size = new System.Drawing.Size(66, 17);
+            this.rbtrapézio.TabIndex = 9;
+            this.rbtrapézio.TabStop = true;
+            this.rbtrapézio.Text = "Trapézio";
+            this.rbtrapézio.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rbtrapézio);
+            this.Controls.Add(this.rbtriangulo);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -136,6 +162,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.RadioButton rbtriangulo;
+        private System.Windows.Forms.RadioButton rbtrapézio;
     }
 }
 
