@@ -28,10 +28,12 @@ namespace clima
             if (clima == "sol" && dinheiro <= 500)
             {
                 MessageBox.Show("Sorvete");
+                pbxImg.ImageLocation = "../../../sorvete.jpg";
             }
             if (clima == "chuva" && dinheiro >= 500)
             {
                 MessageBox.Show("Serra");
+                pbxImg.ImageLocation = "../../../serra.jpg";
             }
             if (clima == "chuva" && dinheiro <= 500)
             {

@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tbxDinheiro = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnResultado = new System.Windows.Forms.Button();
             this.cboxClima = new System.Windows.Forms.ComboBox();
+            this.pbxImg = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImg)).BeginInit();
             this.SuspendLayout();
             // 
             // tbxDinheiro
@@ -81,11 +84,22 @@
             this.cboxClima.Size = new System.Drawing.Size(231, 21);
             this.cboxClima.TabIndex = 5;
             // 
+            // pbxImg
+            // 
+            this.pbxImg.Image = ((System.Drawing.Image)(resources.GetObject("pbxImg.Image")));
+            this.pbxImg.Location = new System.Drawing.Point(558, 58);
+            this.pbxImg.Name = "pbxImg";
+            this.pbxImg.Size = new System.Drawing.Size(197, 165);
+            this.pbxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxImg.TabIndex = 6;
+            this.pbxImg.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pbxImg);
             this.Controls.Add(this.cboxClima);
             this.Controls.Add(this.btnResultado);
             this.Controls.Add(this.label2);
@@ -93,6 +107,7 @@
             this.Controls.Add(this.tbxDinheiro);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,6 +119,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnResultado;
         private System.Windows.Forms.ComboBox cboxClima;
+        private System.Windows.Forms.PictureBox pbxImg;
     }
 }
 
