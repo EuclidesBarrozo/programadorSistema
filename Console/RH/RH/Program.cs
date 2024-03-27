@@ -44,10 +44,31 @@ namespace RH
             Console.WriteLine("1.FGTS\n 2.FERIAS\n 3.SALARIO FAMÍLIA\n 4.DECIMO TERCEIRO\n 5.SAIR");
             op  = Console.ReadLine();
 
-            Console.WriteLine("FGTS:\t" + FGTS(salario));
-            Console.WriteLine("Férias:\t" + Ferias(salario));
-            Console.WriteLine("Salario Família:\t" + SalarioFamilia(salario));
-            Console.WriteLine("Decimo Terceiro:\t" + DecimoTerceiro(salario));
+            switch (op)
+            {
+                case "1":
+                    Console.WriteLine("FGTS:\t" + FGTS(salario));
+                    break;
+                case "2":
+                    Console.WriteLine("Férias:\t" + Ferias(salario));
+                    break;
+                case "3":
+                    Console.WriteLine("Salario Família:\t" + SalarioFamilia(salario));
+                    break;
+                case "4":
+                    Console.WriteLine("Decimo Terceiro:\t" + DecimoTerceiro(salario));
+                    break;
+                case "5":
+                    op = "Sair";
+                    break;
+                default:
+                    Console.WriteLine("Operação inválida");
+                    break;
+            }
+            
+            
+            
+            
         }
     }
 }
