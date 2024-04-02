@@ -12,14 +12,14 @@ namespace CalculadoraPOO1
         {
             Calculadora c1 = new Calculadora();
             Console.WriteLine("Digite o 1o número:");
-            c1.n1 = Convert.ToDouble(Console.ReadLine());
+            c1.setN1(Convert.ToDouble(Console.ReadLine()));
             Console.WriteLine("Digite o 2o número:");
-            c1.n2 = Convert.ToDouble(Console.ReadLine());
+            c1.setN2( Convert.ToDouble(Console.ReadLine()));
             Console.WriteLine("Digite o operador:");
-            c1.operador = Console.ReadLine();
+            c1.setOperador(Console.ReadLine());
             //c1.resultado = c1.n1 + c1.n2;
 
-            switch (c1.operador) {
+            switch (c1.getOperador()) {
                 case "+":
                     Console.WriteLine(c1.somar()); break;
                 case "-":
