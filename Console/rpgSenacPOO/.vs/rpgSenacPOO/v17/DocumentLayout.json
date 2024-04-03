@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|c:\\users\\eucli\\source\\repos\\programadorsistema\\console\\rpgsenacpoo\\rpgsenacpoo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|solutionrelative:rpgsenacpoo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgsenacpoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|solutionrelative:rpgsenacpoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Jogador.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgSenacPOO\\Jogador.cs",
+              "RelativeDocumentMoniker": "rpgSenacPOO\\Jogador.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgSenacPOO\\Jogador.cs",
+              "RelativeToolTip": "rpgSenacPOO\\Jogador.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:49:44.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgSenacPOO\\Program.cs",
+              "RelativeDocumentMoniker": "rpgSenacPOO\\Program.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgSenacPOO\\Program.cs",
+              "RelativeToolTip": "rpgSenacPOO\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:48:15.248Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
