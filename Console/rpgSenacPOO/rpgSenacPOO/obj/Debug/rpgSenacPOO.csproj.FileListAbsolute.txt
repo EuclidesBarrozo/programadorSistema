@@ -1,0 +1,7 @@
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\bin\Debug\rpgSenacPOO.exe.config
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\bin\Debug\rpgSenacPOO.exe
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\bin\Debug\rpgSenacPOO.pdb
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\obj\Debug\rpgSenacPOO.csproj.AssemblyReference.cache
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\obj\Debug\rpgSenacPOO.csproj.CoreCompileInputs.cache
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\obj\Debug\rpgSenacPOO.exe
+C:\Users\eucli\source\repos\programadorSistema\Console\rpgSenacPOO\rpgSenacPOO\obj\Debug\rpgSenacPOO.pdb

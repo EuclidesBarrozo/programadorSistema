@@ -1,0 +1,11 @@
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\BancoDeTalentos.exe.config
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\BancoDeTalentos.exe
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\BancoDeTalentos.pdb
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.csproj.AssemblyReference.cache
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.Form1.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.Properties.Resources.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.csproj.GenerateResource.cache
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.csproj.CoreCompileInputs.cache
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.exe
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.pdb
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.Dashboard.resources

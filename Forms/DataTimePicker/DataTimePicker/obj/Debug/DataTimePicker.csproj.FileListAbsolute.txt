@@ -1,0 +1,10 @@
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\bin\Debug\DataTimePicker.exe.config
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\bin\Debug\DataTimePicker.exe
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\bin\Debug\DataTimePicker.pdb
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.csproj.AssemblyReference.cache
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.Form1.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.Properties.Resources.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.csproj.GenerateResource.cache
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.csproj.CoreCompileInputs.cache
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.exe
+C:\Users\eucli\source\repos\programadorSistema\Forms\DataTimePicker\DataTimePicker\obj\Debug\DataTimePicker.pdb
