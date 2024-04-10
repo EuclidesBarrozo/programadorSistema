@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|c:\\users\\eucli\\source\\repos\\programadorsistema\\forms\\toolsforms\\toolsforms\\f_listbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_listbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|c:\\users\\eucli\\source\\repos\\programadorsistema\\forms\\toolsforms\\toolsforms\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\f_linklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_linklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\f_listbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_listbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\toolsforms\\f_linklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62CE63DC-25FB-4E23-B897-E58CB9DF9706}|ToolsForms\\ToolsForms.csproj|solutionrelative:toolsforms\\f_linklabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,55 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "F_CheckedListBox.cs",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckedListBox.cs",
-              "RelativeDocumentMoniker": "ToolsForms\\F_CheckedListBox.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckedListBox.cs",
-              "RelativeToolTip": "ToolsForms\\F_CheckedListBox.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwC8AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "F_ListBox.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_ListBox.cs",
+              "RelativeDocumentMoniker": "ToolsForms\\F_ListBox.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_ListBox.cs",
+              "RelativeToolTip": "ToolsForms\\F_ListBox.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:40:14.522Z",
+              "WhenOpened": "2024-04-09T18:56:53.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "F_CheckedListBox.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckedListBox.cs",
-              "RelativeDocumentMoniker": "ToolsForms\\F_CheckedListBox.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckedListBox.cs [Design]",
-              "RelativeToolTip": "ToolsForms\\F_CheckedListBox.cs [Design]",
+              "Title": "F_ListBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_ListBox.cs",
+              "RelativeDocumentMoniker": "ToolsForms\\F_ListBox.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_ListBox.cs [Design]",
+              "RelativeToolTip": "ToolsForms\\F_ListBox.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:32:48.416Z"
+              "WhenOpened": "2024-04-09T18:49:12.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "F_CheckBox.cs",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckBox.cs",
-              "RelativeDocumentMoniker": "ToolsForms\\F_CheckBox.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckBox.cs",
-              "RelativeToolTip": "ToolsForms\\F_CheckBox.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAIwDwAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "F_LinkLabel.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_LinkLabel.cs",
+              "RelativeDocumentMoniker": "ToolsForms\\F_LinkLabel.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_LinkLabel.cs",
+              "RelativeToolTip": "ToolsForms\\F_LinkLabel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvxwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:51:57.491Z",
+              "WhenOpened": "2024-04-09T18:44:57.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "F_CheckBox.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckBox.cs",
-              "RelativeDocumentMoniker": "ToolsForms\\F_CheckBox.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_CheckBox.cs [Design]",
-              "RelativeToolTip": "ToolsForms\\F_CheckBox.cs [Design]",
+              "Title": "F_LinkLabel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_LinkLabel.cs",
+              "RelativeDocumentMoniker": "ToolsForms\\F_LinkLabel.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\F_LinkLabel.cs [Design]",
+              "RelativeToolTip": "ToolsForms\\F_LinkLabel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:46:19.164Z",
+              "WhenOpened": "2024-04-09T18:42:10.051Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -93,7 +93,7 @@
               "RelativeDocumentMoniker": "ToolsForms\\Form1.cs",
               "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\ToolsForms\\ToolsForms\\Form1.cs",
               "RelativeToolTip": "ToolsForms\\Form1.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAtwCIAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T14:14:37.21Z"
             },

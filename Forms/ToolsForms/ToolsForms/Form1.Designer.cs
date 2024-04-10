@@ -34,6 +34,8 @@
             this.dataTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.linkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +51,9 @@
             this.ferramentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dataTimePickerToolStripMenuItem,
             this.checkBoxToolStripMenuItem,
-            this.checkedListBoxToolStripMenuItem});
+            this.checkedListBoxToolStripMenuItem,
+            this.linkLabelToolStripMenuItem,
+            this.listBoxToolStripMenuItem});
             this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
             resources.ApplyResources(this.ferramentasToolStripMenuItem, "ferramentasToolStripMenuItem");
             // 
@@ -70,6 +74,18 @@
             this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
             resources.ApplyResources(this.checkedListBoxToolStripMenuItem, "checkedListBoxToolStripMenuItem");
             this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
+            // 
+            // linkLabelToolStripMenuItem
+            // 
+            this.linkLabelToolStripMenuItem.Name = "linkLabelToolStripMenuItem";
+            resources.ApplyResources(this.linkLabelToolStripMenuItem, "linkLabelToolStripMenuItem");
+            this.linkLabelToolStripMenuItem.Click += new System.EventHandler(this.linkLabelToolStripMenuItem_Click);
+            // 
+            // listBoxToolStripMenuItem
+            // 
+            this.listBoxToolStripMenuItem.Name = "listBoxToolStripMenuItem";
+            resources.ApplyResources(this.listBoxToolStripMenuItem, "listBoxToolStripMenuItem");
+            this.listBoxToolStripMenuItem.Click += new System.EventHandler(this.listBoxToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -94,6 +110,8 @@
         private System.Windows.Forms.ToolStripMenuItem dataTimePickerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem linkLabelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
     }
 }
 

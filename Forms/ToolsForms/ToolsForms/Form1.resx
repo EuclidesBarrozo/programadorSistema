@@ -139,6 +139,18 @@
   <data name="checkedListBoxToolStripMenuItem.Text" xml:space="preserve">
     <value>CheckedListBox</value>
   </data>
+  <data name="linkLabelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="linkLabelToolStripMenuItem.Text" xml:space="preserve">
+    <value>LinkLabel</value>
+  </data>
+  <data name="listBoxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="listBoxToolStripMenuItem.Text" xml:space="preserve">
+    <value>ListBox</value>
+  </data>
   <data name="ferramentasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 20</value>
   </data>
@@ -214,6 +226,18 @@
     <value>checkedListBoxToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;checkedListBoxToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabelToolStripMenuItem.Name" xml:space="preserve">
+    <value>linkLabelToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;linkLabelToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBoxToolStripMenuItem.Name" xml:space="preserve">
+    <value>listBoxToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;listBoxToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

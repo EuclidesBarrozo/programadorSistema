@@ -11,3 +11,5 @@ C:\Users\eucli\source\repos\programadorSistema\Forms\ToolsForms\ToolsForms\obj\D
 C:\Users\eucli\source\repos\programadorSistema\Forms\ToolsForms\ToolsForms\obj\Debug\ToolsForms.DataTimePicker.resources
 C:\Users\eucli\source\repos\programadorSistema\Forms\ToolsForms\ToolsForms\obj\Debug\ToolsForms.F_CheckBox.resources
 C:\Users\eucli\source\repos\programadorSistema\Forms\ToolsForms\ToolsForms\obj\Debug\ToolsForms.F_CheckedListBox.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\ToolsForms\ToolsForms\obj\Debug\ToolsForms.F_LinkLabel.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\ToolsForms\ToolsForms\obj\Debug\ToolsForms.F_ListBox.resources
