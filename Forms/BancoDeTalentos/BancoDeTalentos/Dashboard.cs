@@ -29,5 +29,10 @@ namespace BancoDeTalentos
             CadastrarCurriculo c = new CadastrarCurriculo();
             c.ShowDialog();
         }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

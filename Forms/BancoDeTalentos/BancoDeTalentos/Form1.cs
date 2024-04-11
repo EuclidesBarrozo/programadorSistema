@@ -12,6 +12,7 @@ namespace BancoDeTalentos
 {
     public partial class Form1 : Form
     {
+        DataTable dt = new DataTable();
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +22,22 @@ namespace BancoDeTalentos
         {
             string usuario = tbxUsuario.Text;
             string senha   = tbxSenha.Text;
+            if(usuario == "" || senha == "")
+            {
+                MessageBox.Show("Usuario e ou senha inválido");
+                tbxUsuario.Focus();
+                return;
+            }
+
+            string sql = "SELECT * FROM t_usuario WHERE usuario = '" + usuario + "' AND senha = '" + senha+"'";
+            dt = Banco.consulta(sql);
+            if(dt.Rows.Count == 1)
+            {
+                Dashboard d = new Dashboard(dt.Rows[0].ItemArray[1].ToString());
+                //dt.Rows[0].Field<string>("usuario");
+                d.Show();
+            }
+            /*
             Usuario u1 = new Usuario();
 
             if(usuario == u1.getUsuario() && senha == u1.getSenha()) 
@@ -32,7 +49,7 @@ namespace BancoDeTalentos
             {
                 lblMensagem.Text = "Usuário ou Senha incorreto";
             }
-
+            */
         }
 
         private void label3_Click(object sender, EventArgs e)

@@ -9,3 +9,15 @@ C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTale
 C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.exe
 C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.pdb
 C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.Dashboard.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\EntityFramework.dll
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SQLite.dll
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\EntityFramework.xml
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SQLite.xml
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeT.D1D632BA.Up2Date
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.CadastrarCurriculo.resources
