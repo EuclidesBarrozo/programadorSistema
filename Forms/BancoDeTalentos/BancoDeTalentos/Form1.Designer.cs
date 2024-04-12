@@ -99,7 +99,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbxSenha);
             this.Controls.Add(this.tbxUsuario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(581, 376);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(581, 376);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

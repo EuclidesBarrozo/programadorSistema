@@ -75,6 +75,7 @@
     <Compile Include="CadastrarCurriculo.Designer.cs">
       <DependentUpon>CadastrarCurriculo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Curriculo.cs" />
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>

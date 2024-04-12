@@ -29,7 +29,8 @@ namespace BancoDeTalentos
                 return;
             }
 
-            string sql = "SELECT * FROM t_usuario WHERE usuario = '" + usuario + "' AND senha = '" + senha+"'";
+            string sql = "SELECT * FROM t_usuarios WHERE usuario = '" 
+                + usuario + "' AND senha = '" + senha+"'";
             dt = Banco.consulta(sql);
             if(dt.Rows.Count == 1)
             {
