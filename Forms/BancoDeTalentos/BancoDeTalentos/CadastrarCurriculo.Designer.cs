@@ -115,6 +115,10 @@
             // cbxEscolaridade
             // 
             this.cbxEscolaridade.FormattingEnabled = true;
+            this.cbxEscolaridade.Items.AddRange(new object[] {
+            "Ensino Médio",
+            "Ensino Técnico",
+            "Ensino Superior"});
             this.cbxEscolaridade.Location = new System.Drawing.Point(349, 101);
             this.cbxEscolaridade.Name = "cbxEscolaridade";
             this.cbxEscolaridade.Size = new System.Drawing.Size(234, 21);
@@ -245,6 +249,7 @@
             this.btnSalvar.TabIndex = 20;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnLimpar
             // 

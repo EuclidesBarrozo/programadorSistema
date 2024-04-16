@@ -20,7 +20,7 @@ namespace BancoDeTalentos
         {
             //Criar um conexao do tipo SQLiteConnect
             //linkado ao arquivo banco.db
-            conexao = new SQLiteConnection("Data Source = ..\\..\\..\\banco\\banco.db");
+            conexao = new SQLiteConnection("Data Source = ..\\..\\..\\banco\\bancoDeTalentos.db");
             //abrindo a conexão utilizando o método Open()
             conexao.Open();
             //retorna para o arquivo/método que chamou a conexao
@@ -88,7 +88,7 @@ namespace BancoDeTalentos
         }
 
         //Funções do Form Currículo
-        /*
+        
         public static void inserirCurriculo(Curriculo c)
         {
             if (existeNome(c))
@@ -98,25 +98,37 @@ namespace BancoDeTalentos
             }
             try
             {
-                SQLiteDataAdapter da = null;
-                DataTable dt = new DataTable();
                 using (var cmd = ConexaoBanco().CreateCommand())
                 {
                     //preencher o comando com a string sql
-                    cmd.CommandText = "INSERT INTO t_curriculo (nome, telefone, dataNascimento, escolaridade, profissao1, profissao2, curso1, curso2) VALUES (@nome, @telefone, @dataNascimento, @escolaridade, @profissao1, @profissao2, @curso1, @curso2)";
-                    //criar um SQLiteDataAdapter usando o comando e a conexão
-                    //e salva em da
-                    da = new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
-                    //converte de DataAdapter para DataTable e preenche o dt
-                    da.Fill(dt);
-                    //fecha a conexão
-                    ConexaoBanco().Close();
-                    //retorna o DataTable dt
-                    return dt;
+                    cmd.CommandText = "INSERT INTO t_curriculos " +
+                        "(nome, telefone, dataNascimento, escolaridade, " +
+                        "profissao1, profissao2, curso1, curso2) " +
+                        "VALUES (@nome, @telefone, @dataNascimento, " +
+                        "@escolaridade, @profissao1, @profissao2, @curso1, @curso2)";
+                    cmd.Parameters.AddWithValue("@nome", c.nome);
+                    cmd.Parameters.AddWithValue("@telefone", c.telefone);
+                    cmd.Parameters.AddWithValue("@dataNascimento", c.dataNascimento);
+                    cmd.Parameters.AddWithValue("@escolaridade", c.escolaridade);
+                    cmd.Parameters.AddWithValue("@profissao1", c.profissao1);
+                    cmd.Parameters.AddWithValue("@profissao2", c.profissao2);
+                    cmd.Parameters.AddWithValue("@curso1", c.curso1);
+                    cmd.Parameters.AddWithValue("@curso2", c.curso2);
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Novo currículo salvo!");
+                    ConexaoBanco().Close();  
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao salvar currículo.");
+                ConexaoBanco().Close();
+                //se acontecer algum erro no try exibe a exceção
+                throw ex;
+            }
         }
-        */
+        
         //Fim das funções Form Currículo
 
         //ROTINAS GERAIS
@@ -124,8 +136,8 @@ namespace BancoDeTalentos
         {
             DataTable dt = null;
             bool res = false;
-            string sql = "SELECT nome FROM t_curriculo WHERE nome = '" + c.nome + "'";
-            Banco.consulta(sql);
+            string sql = "SELECT nome FROM t_curriculos WHERE nome = '" + c.nome + "'";
+            dt = Banco.consulta(sql);
             if (dt.Rows.Count > 0)
             {
                 res = true;
