@@ -124,7 +124,6 @@ namespace BancoDeTalentos
             {
                 MessageBox.Show("Erro ao salvar currículo.");
                 ConexaoBanco().Close();
-                //se acontecer algum erro no try exibe a exceção
                 throw ex;
             }
         }
@@ -132,11 +131,12 @@ namespace BancoDeTalentos
         //Fim das funções Form Currículo
 
         //ROTINAS GERAIS
-        public static bool existeNome(Curriculo c)
+        private static bool existeNome(Curriculo c)
         {
             DataTable dt = null;
             bool res = false;
-            string sql = "SELECT nome FROM t_curriculos WHERE nome = '" + c.nome + "'";
+            string sql = "SELECT nome FROM t_curriculos WHERE nome = '" + 
+                c.nome + "'";
             dt = Banco.consulta(sql);
             if (dt.Rows.Count > 0)
             {
