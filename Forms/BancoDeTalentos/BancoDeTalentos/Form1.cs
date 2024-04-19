@@ -63,5 +63,23 @@ namespace BancoDeTalentos
         {
 
         }
+
+        private void Form1_Load(object sender, PaintEventArgs e)
+        {
+            
+        }
+        private void button1_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder(e.Graphics, btnEntrar.ClientRectangle,
+                SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset,
+                SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset,
+                SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset,
+                SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -70,7 +70,7 @@
             // currículoToolStripMenuItem
             // 
             this.currículoToolStripMenuItem.Name = "currículoToolStripMenuItem";
-            this.currículoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.currículoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.currículoToolStripMenuItem.Text = "Currículo";
             this.currículoToolStripMenuItem.Click += new System.EventHandler(this.currículoToolStripMenuItem_Click);
             // 
@@ -87,6 +87,7 @@
             this.currículosToolStripMenuItem.Name = "currículosToolStripMenuItem";
             this.currículosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.currículosToolStripMenuItem.Text = "Currículos";
+            this.currículosToolStripMenuItem.Click += new System.EventHandler(this.currículosToolStripMenuItem_Click);
             // 
             // Dashboard
             // 

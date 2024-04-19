@@ -17,6 +17,9 @@ namespace BancoDeTalentos
             InitializeComponent();
         }
 
-       
+        private void GestaoCurrículos_Load(object sender, EventArgs e)
+        {
+            dgvCurriculos.DataSource = Banco.ObterTodosCurriculos();
+        }
     }
 }

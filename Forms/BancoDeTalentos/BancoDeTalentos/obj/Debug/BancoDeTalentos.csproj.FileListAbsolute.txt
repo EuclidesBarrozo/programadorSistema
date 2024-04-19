@@ -21,3 +21,4 @@ C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTale
 C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\bin\Debug\System.Data.SQLite.xml
 C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeT.D1D632BA.Up2Date
 C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.CadastrarCurriculo.resources
+C:\Users\eucli\source\repos\programadorSistema\Forms\BancoDeTalentos\BancoDeTalentos\obj\Debug\BancoDeTalentos.GestaoCurrículos.resources

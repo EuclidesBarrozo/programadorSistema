@@ -34,5 +34,11 @@ namespace BancoDeTalentos
         {
 
         }
+
+        private void currículosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestaoCurrículos g = new GestaoCurrículos();
+            g.ShowDialog();
+        }
     }
 }

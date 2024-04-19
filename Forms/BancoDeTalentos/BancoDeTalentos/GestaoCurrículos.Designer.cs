@@ -48,13 +48,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.tbxCurso1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvCurriculos = new System.Windows.Forms.DataGridView();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnDeletar = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCurriculos)).BeginInit();
             this.SuspendLayout();
             // 
             // label9
@@ -243,13 +243,15 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "1ª Curso";
             // 
-            // dataGridView1
+            // dgvCurriculos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(663, 60);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(465, 374);
-            this.dataGridView1.TabIndex = 24;
+            this.dgvCurriculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCurriculos.EnableHeadersVisualStyles = false;
+            this.dgvCurriculos.Location = new System.Drawing.Point(663, 60);
+            this.dgvCurriculos.MultiSelect = false;
+            this.dgvCurriculos.Name = "dgvCurriculos";
+            this.dgvCurriculos.Size = new System.Drawing.Size(465, 374);
+            this.dgvCurriculos.TabIndex = 24;
             // 
             // btnEditar
             // 
@@ -276,20 +278,21 @@
             this.ClientSize = new System.Drawing.Size(1149, 481);
             this.Controls.Add(this.btnDeletar);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvCurriculos);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "GestaoCurrículos";
             this.Text = "Gestao de Currículos";
+            this.Load += new System.EventHandler(this.GestaoCurrículos_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCurriculos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -317,7 +320,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox tbxCurso1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvCurriculos;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnDeletar;
     }

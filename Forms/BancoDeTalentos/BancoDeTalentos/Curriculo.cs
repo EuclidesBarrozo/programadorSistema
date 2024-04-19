@@ -8,7 +8,7 @@ namespace BancoDeTalentos
 {
     internal class Curriculo
     {
-        public int id;
+        public int id { get; set; }
         public string nome;
         public string telefone;
         public string dataNascimento;

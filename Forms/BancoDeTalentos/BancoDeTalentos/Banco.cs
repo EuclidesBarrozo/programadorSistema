@@ -27,7 +27,7 @@ namespace BancoDeTalentos
             return conexao;
         }
 
-        public static DataTable ObterTodosUsuarios()
+        public static DataTable ObterTodosCurriculos()
         {
             SQLiteDataAdapter da = null;
             DataTable dt = new DataTable();
@@ -36,7 +36,7 @@ namespace BancoDeTalentos
             {
                 using (var cmd = ConexaoBanco().CreateCommand())
                 {
-                    cmd.CommandText = "Select * FROM t_usuarios";
+                    cmd.CommandText = "Select id, nome, telefone, dataNascimento as 'data de nascimento', escolaridade, profissao1 as 'profissão 1', profissao1 as 'profissão 2', curso1 as 'curso 1', curso2 as 'curso 2' FROM t_curriculos";
                     da =  new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
                     da.Fill(dt);
                     ConexaoBanco().Close();
@@ -91,6 +91,7 @@ namespace BancoDeTalentos
         
         public static void inserirCurriculo(Curriculo c)
         {
+            //verificar se já tem um currículo com esse nome
             if (existeNome(c))
             {
                 MessageBox.Show("Nome já cadastrado.");
@@ -100,7 +101,7 @@ namespace BancoDeTalentos
             {
                 using (var cmd = ConexaoBanco().CreateCommand())
                 {
-                    //preencher o comando com a string sql
+                    //preencher o comando com a string sql para inserção
                     cmd.CommandText = "INSERT INTO t_curriculos " +
                         "(nome, telefone, dataNascimento, escolaridade, " +
                         "profissao1, profissao2, curso1, curso2) " +
@@ -144,5 +145,7 @@ namespace BancoDeTalentos
             }
             return res;
         }
+
+
     }
 }
