@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tbxNome = new System.Windows.Forms.TextBox();
@@ -245,13 +246,26 @@
             // 
             // dgvCurriculos
             // 
+            this.dgvCurriculos.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCurriculos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvCurriculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCurriculos.EnableHeadersVisualStyles = false;
             this.dgvCurriculos.Location = new System.Drawing.Point(663, 60);
             this.dgvCurriculos.MultiSelect = false;
             this.dgvCurriculos.Name = "dgvCurriculos";
+            this.dgvCurriculos.ReadOnly = true;
+            this.dgvCurriculos.RowHeadersVisible = false;
+            this.dgvCurriculos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCurriculos.Size = new System.Drawing.Size(465, 374);
             this.dgvCurriculos.TabIndex = 24;
+            this.dgvCurriculos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCurriculos_CellDoubleClick);
             // 
             // btnEditar
             // 
@@ -261,6 +275,7 @@
             this.btnEditar.TabIndex = 25;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnDeletar
             // 

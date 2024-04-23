@@ -49,6 +49,29 @@ namespace BancoDeTalentos
             }
         }
 
+        public static DataTable ObterDadosCurriculo(string id)
+        {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+            try
+            {
+                using (var cmd = ConexaoBanco().CreateCommand())
+                {
+                    cmd.CommandText = "Select * FROM t_curriculos WHERE id = " + id;
+                    da = new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
+                    da.Fill(dt);
+                    ConexaoBanco().Close();
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                ConexaoBanco().Close();
+                throw ex;
+            }
+        }
+
         //método consulta que recebe uma string com o comando sql
         //e retornar uma tabela de dados(DataTable)
         public static DataTable consulta(string sql)
@@ -128,7 +151,41 @@ namespace BancoDeTalentos
                 throw ex;
             }
         }
-        
+
+        public static void AlterarCurriculo(Curriculo c)
+        {
+            try
+            {
+                using (var cmd = ConexaoBanco().CreateCommand())
+                {
+                    //preencher o comando com a string sql para inserção
+                    cmd.CommandText = "UPDATE t_curriculos SET " +
+                        "nome = @nome, telefone = @telefone, dataNascimento = @dataNascimento, " +
+                        "escolaridade = @escolaridade, profissao1 = @profissao1, profissao2 = @profissao2, " +
+                        "curso1 = @curso1, curso2 = @curso2 WHERE id = @id";
+                    cmd.Parameters.AddWithValue("@id", c.id);
+                    cmd.Parameters.AddWithValue("@nome", c.nome);
+                    cmd.Parameters.AddWithValue("@telefone", c.telefone);
+                    cmd.Parameters.AddWithValue("@dataNascimento", c.dataNascimento);
+                    cmd.Parameters.AddWithValue("@escolaridade", c.escolaridade);
+                    cmd.Parameters.AddWithValue("@profissao1", c.profissao1);
+                    cmd.Parameters.AddWithValue("@profissao2", c.profissao2);
+                    cmd.Parameters.AddWithValue("@curso1", c.curso1);
+                    cmd.Parameters.AddWithValue("@curso2", c.curso2);
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Currículo Atualizado!");
+                    ConexaoBanco().Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao atualizar currículo.");
+                ConexaoBanco().Close();
+                throw ex;
+            }
+        }
+
         //Fim das funções Form Currículo
 
         //ROTINAS GERAIS
