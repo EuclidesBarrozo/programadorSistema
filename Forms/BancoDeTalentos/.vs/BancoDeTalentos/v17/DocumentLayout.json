@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|c:\\users\\eucli\\source\\repos\\programadorsistema\\forms\\bancodetalentos\\bancodetalentos\\gestaocurr\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\gestaocurr\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\gestaocurr\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\gestaocurr\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\cadastrarcurriculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\cadastrarcurriculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -31,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\curriculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\curriculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\cadastrarcurriculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|solutionrelative:bancodetalentos\\cadastrarcurriculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDED76F1-60DA-47A0-B0D9-A8CD35AA5676}|BancoDeTalentos\\BancoDeTalentos.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\bancodetalentos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,34 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs",
-              "RelativeDocumentMoniker": "BancoDeTalentos\\Form1.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs [Design]",
-              "RelativeToolTip": "BancoDeTalentos\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:45:14.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs",
-              "RelativeDocumentMoniker": "BancoDeTalentos\\Form1.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs",
-              "RelativeToolTip": "BancoDeTalentos\\Form1.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAIAwwE0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T14:09:07.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GestaoCurr\u00EDculos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
               "RelativeDocumentMoniker": "BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
@@ -101,7 +78,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "GestaoCurr\u00EDculos.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
+              "RelativeDocumentMoniker": "BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
+              "RelativeToolTip": "BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAqwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T11:41:39.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Banco.cs",
+              "RelativeDocumentMoniker": "BancoDeTalentos\\Banco.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Banco.cs",
+              "RelativeToolTip": "BancoDeTalentos\\Banco.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAmwKYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T17:54:19.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastrarCurriculo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\CadastrarCurriculo.cs",
+              "RelativeDocumentMoniker": "BancoDeTalentos\\CadastrarCurriculo.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\CadastrarCurriculo.cs [Design]",
+              "RelativeToolTip": "BancoDeTalentos\\CadastrarCurriculo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:50:18.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Dashboard.cs",
+              "RelativeDocumentMoniker": "BancoDeTalentos\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Dashboard.cs [Design]",
+              "RelativeToolTip": "BancoDeTalentos\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:39:51.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "BancoDeTalentos\\Form1.Designer.cs",
@@ -113,44 +139,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestaoCurr\u00EDculos.cs",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
-              "RelativeDocumentMoniker": "BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
-              "RelativeToolTip": "BancoDeTalentos\\GestaoCurr\u00EDculos.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEIAAAA1AAAA",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs",
+              "RelativeDocumentMoniker": "BancoDeTalentos\\Form1.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs",
+              "RelativeToolTip": "BancoDeTalentos\\Form1.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAIAwwE0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T11:41:39.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T14:09:07.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Banco.cs",
-              "RelativeDocumentMoniker": "BancoDeTalentos\\Banco.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Banco.cs",
-              "RelativeToolTip": "BancoDeTalentos\\Banco.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAIAwwKQAAAA7AAAA",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs",
+              "RelativeDocumentMoniker": "BancoDeTalentos\\Form1.cs",
+              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Form1.cs [Design]",
+              "RelativeToolTip": "BancoDeTalentos\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T17:54:19.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T13:45:14.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CadastrarCurriculo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\CadastrarCurriculo.cs",
-              "RelativeDocumentMoniker": "BancoDeTalentos\\CadastrarCurriculo.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\CadastrarCurriculo.cs [Design]",
-              "RelativeToolTip": "BancoDeTalentos\\CadastrarCurriculo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T11:50:18.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Program.cs",
               "RelativeDocumentMoniker": "BancoDeTalentos\\Program.cs",
@@ -158,12 +170,11 @@
               "RelativeToolTip": "BancoDeTalentos\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:23:56.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T17:23:56.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Dashboard.cs",
               "RelativeDocumentMoniker": "BancoDeTalentos\\Dashboard.cs",
@@ -175,18 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Dashboard.cs",
-              "RelativeDocumentMoniker": "BancoDeTalentos\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Dashboard.cs [Design]",
-              "RelativeToolTip": "BancoDeTalentos\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:39:51.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Curriculo.cs",
               "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\Curriculo.cs",
               "RelativeDocumentMoniker": "BancoDeTalentos\\Curriculo.cs",
@@ -198,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CadastrarCurriculo.cs",
               "DocumentMoniker": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Forms\\BancoDeTalentos\\BancoDeTalentos\\CadastrarCurriculo.cs",
               "RelativeDocumentMoniker": "BancoDeTalentos\\CadastrarCurriculo.cs",
@@ -206,7 +206,8 @@
               "RelativeToolTip": "BancoDeTalentos\\CadastrarCurriculo.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAIAxwBwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T17:13:07.348Z"
+              "WhenOpened": "2024-04-15T17:13:07.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

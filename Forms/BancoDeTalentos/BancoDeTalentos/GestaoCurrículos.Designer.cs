@@ -265,6 +265,7 @@
             this.dgvCurriculos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCurriculos.Size = new System.Drawing.Size(465, 374);
             this.dgvCurriculos.TabIndex = 24;
+            this.dgvCurriculos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCurriculos_CellContentClick);
             this.dgvCurriculos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCurriculos_CellDoubleClick);
             // 
             // btnEditar

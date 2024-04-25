@@ -31,12 +31,17 @@ namespace BancoDeTalentos
         {
             SQLiteDataAdapter da = null;
             DataTable dt = new DataTable();
-
             try
             {
                 using (var cmd = ConexaoBanco().CreateCommand())
                 {
-                    cmd.CommandText = "Select id, nome, telefone, dataNascimento as 'data de nascimento', escolaridade, profissao1 as 'profissão 1', profissao1 as 'profissão 2', curso1 as 'curso 1', curso2 as 'curso 2' FROM t_curriculos";
+                    //dataNascimento as data de nascimento (alias)
+                    //para mudar o título da coluna no DataGridView
+                    cmd.CommandText = "Select id, nome, telefone, " +
+                        "dataNascimento as 'data de nascimento', " +
+                        "escolaridade, profissao1 as 'profissão 1', " +
+                        "profissao1 as 'profissão 2', curso1 as 'curso 1', " +
+                        "curso2 as 'curso 2' FROM t_curriculos";
                     da =  new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
                     da.Fill(dt);
                     ConexaoBanco().Close();
