@@ -191,6 +191,28 @@ namespace BancoDeTalentos
             }
         }
 
+        public static void ExcluirCurriculo(int id)
+        {
+            try
+            {
+                using (var cmd = ConexaoBanco().CreateCommand())
+                {
+                    //preencher o comando com a string sql para deletar
+                    cmd.CommandText = "DELETE FROM t_curriculos WHERE id = @id";
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Currículo Deletado!");
+                    ConexaoBanco().Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao deletar currículo.");
+                ConexaoBanco().Close();
+                throw ex;
+            }
+        }
+
         //Fim das funções Form Currículo
 
         //ROTINAS GERAIS

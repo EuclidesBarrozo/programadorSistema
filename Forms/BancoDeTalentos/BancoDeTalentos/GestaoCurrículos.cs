@@ -84,5 +84,22 @@ namespace BancoDeTalentos
         {
 
         }
+
+        private void btnDeletar_Click(object sender, EventArgs e)
+        {
+            //Insere o valor da coluna nome da linha selecionada no dataGridView
+            //no atributo c.nome
+            c.nome = dgvCurriculos.SelectedRows[0].Cells["nome"].Value.ToString();
+            //Cria um uma caixa de mensagem com os botões sim e não. 
+            //Insere a resposta na variável res
+            DialogResult res = MessageBox.Show("Confirma a exclusão do currículo de "
+                + c.nome + "?", "Excluir", MessageBoxButtons.YesNo);
+            if (res == DialogResult.Yes)
+            {
+                c.id = Convert.ToInt32(dgvCurriculos.SelectedRows[0].Cells["id"].Value);
+                Banco.ExcluirCurriculo(c.id);
+                dgvCurriculos.DataSource = Banco.ObterTodosCurriculos();
+            }
+        }
     }
 }

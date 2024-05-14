@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgsenacpoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|c:\\users\\eucli\\source\\repos\\programadorsistema\\console\\rpgsenacpoo\\rpgsenacpoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|solutionrelative:rpgsenacpoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|c:\\users\\eucli\\source\\repos\\programadorsistema\\console\\rpgsenacpoo\\rpgsenacpoo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgsenacpoo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17622623-5A15-4746-9656-5A6B5ACB2BE0}|rpgSenacPOO\\rpgSenacPOO.csproj|solutionrelative:rpgsenacpoo\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "rpgSenacPOO\\Jogador.cs",
               "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgSenacPOO\\Jogador.cs",
               "RelativeToolTip": "rpgSenacPOO\\Jogador.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAUwEYAAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T13:49:44.452Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "rpgSenacPOO\\Program.cs",
               "ToolTip": "C:\\Users\\eucli\\source\\repos\\programadorSistema\\Console\\rpgSenacPOO\\rpgSenacPOO\\Program.cs",
               "RelativeToolTip": "rpgSenacPOO\\Program.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAADsAAAAuAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T13:48:15.248Z",
               "EditorCaption": ""
