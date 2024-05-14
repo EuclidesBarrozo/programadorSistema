@@ -51,10 +51,13 @@
             this.lblVidaJ2 = new System.Windows.Forms.Label();
             this.lblDanoJ2 = new System.Windows.Forms.Label();
             this.lblDanoJ1 = new System.Windows.Forms.Label();
+            this.ptbFinal = new System.Windows.Forms.PictureBox();
+            this.btnReiniciar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbFinal)).BeginInit();
             this.SuspendLayout();
             // 
             // pbxJ1
@@ -295,12 +298,38 @@
             this.lblDanoJ1.Size = new System.Drawing.Size(0, 17);
             this.lblDanoJ1.TabIndex = 12;
             // 
+            // ptbFinal
+            // 
+            this.ptbFinal.Location = new System.Drawing.Point(-2, -1);
+            this.ptbFinal.Name = "ptbFinal";
+            this.ptbFinal.Size = new System.Drawing.Size(808, 433);
+            this.ptbFinal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbFinal.TabIndex = 13;
+            this.ptbFinal.TabStop = false;
+            this.ptbFinal.Visible = false;
+            // 
+            // btnReiniciar
+            // 
+            this.btnReiniciar.BackColor = System.Drawing.Color.DarkRed;
+            this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReiniciar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnReiniciar.Location = new System.Drawing.Point(309, 329);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(193, 36);
+            this.btnReiniciar.TabIndex = 14;
+            this.btnReiniciar.Text = "REINICIAR";
+            this.btnReiniciar.UseVisualStyleBackColor = false;
+            this.btnReiniciar.Visible = false;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 429);
+            this.Controls.Add(this.btnReiniciar);
+            this.Controls.Add(this.ptbFinal);
             this.Controls.Add(this.lblDanoJ1);
             this.Controls.Add(this.lblDanoJ2);
             this.Controls.Add(this.lblVidaJ2);
@@ -327,6 +356,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbFinal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -356,6 +386,8 @@
         private System.Windows.Forms.Label lblVidaJ2;
         private System.Windows.Forms.Label lblDanoJ2;
         private System.Windows.Forms.Label lblDanoJ1;
+        private System.Windows.Forms.PictureBox ptbFinal;
+        private System.Windows.Forms.Button btnReiniciar;
     }
 }
 
