@@ -118,7 +118,9 @@
             this.cbxEscolaridade.Items.AddRange(new object[] {
             "Ensino Médio",
             "Ensino Técnico",
-            "Ensino Superior"});
+            "Ensino Superior Incompleto",
+            "Ensino Superior",
+            "Pós Graduação"});
             this.cbxEscolaridade.Location = new System.Drawing.Point(349, 101);
             this.cbxEscolaridade.Name = "cbxEscolaridade";
             this.cbxEscolaridade.Size = new System.Drawing.Size(234, 21);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblMensagem = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.currículoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,15 +35,6 @@
             this.currículosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblMensagem
-            // 
-            this.lblMensagem.AutoSize = true;
-            this.lblMensagem.Location = new System.Drawing.Point(12, 86);
-            this.lblMensagem.Name = "lblMensagem";
-            this.lblMensagem.Size = new System.Drawing.Size(35, 13);
-            this.lblMensagem.TabIndex = 0;
-            this.lblMensagem.Text = "label1";
             // 
             // menuStrip1
             // 
@@ -85,7 +75,7 @@
             // currículosToolStripMenuItem
             // 
             this.currículosToolStripMenuItem.Name = "currículosToolStripMenuItem";
-            this.currículosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.currículosToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.currículosToolStripMenuItem.Text = "Currículos";
             this.currículosToolStripMenuItem.Click += new System.EventHandler(this.currículosToolStripMenuItem_Click);
             // 
@@ -94,7 +84,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblMensagem);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Dashboard";
@@ -108,8 +97,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblMensagem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem currículoToolStripMenuItem;
